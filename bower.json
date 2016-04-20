@@ -1,0 +1,31 @@
+{
+  "name": "validation-element",
+  "version": "1.0.0",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a custom validation with external validators.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "seed"
+  ],
+  "main": "validation-element.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "iron-validatable-behavior": "PolymerElements/iron-validatable-behavior#^1.0.5",
+    "iron-validator-behavior": "PolymerElements/iron-validator-behavior#^1.0.1",
+    "iron-list": "PolymerElements/iron-list#^1.2.8",
+    "polymer": "Polymer/polymer#^1.2.0",
+    "paper-input": "PolymerElements/paper-input#^1.1.11"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "^4.0.0"
+  }
+}
